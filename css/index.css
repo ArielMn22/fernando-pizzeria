@@ -1,0 +1,17 @@
+#banner {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+
+    background-image: url("../img/pizza.jpeg");
+    background-size: cover;
+
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    width: 80vw;
+}

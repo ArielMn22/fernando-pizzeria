@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+/* Menu Superior */
+
+#topBar {
+    justify-content: space-between;
+    
+    height: 56px;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+}
+
+#topBar ul li {
+    margin: 0 1em;
+
+    list-style-type: none;
+    
+    display: flex;
+    align-items: center;
+}
+
+#topBar ul li a {
+    color: white;
+    text-decoration: none;
+
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 5px;
+}
+
+.logo img { /* Logo da pizzaria - Menu Superior */
+    height: 56px;
+}
+
+/* Tipografia */
+h1 {
+    color: white;
+    font-size: 8em;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+span {
+    font-size: 1.4em;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Genericas */
+.flex-container {
+    display: flex;
+}
+
+.ma-top-g {
+    margin-top: 40px;
+}
+
+.ma-bottom-m {
+    margin-top: 20px;
+}
+
+.pa-all-top {
+    padding: 40px;
+}
